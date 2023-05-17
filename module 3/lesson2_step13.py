@@ -12,11 +12,11 @@ class test_test(unittest.TestCase):
         browser.get(link)
 
         # Ваш код, который заполняет обязательные поля: First name, last name, email
-        input1 = browser.find_element(By.CSS_SELECTOR, "[placeholder='Input your first name']")
+        input1 = browser.find_element(By.CSS_SELECTOR, "[placeholder=Input your first name]")
         input1.send_keys("Ilon")
-        input2 = browser.find_element(By.CSS_SELECTOR, "[placeholder='Input your last name']")
+        input2 = browser.find_element(By.CSS_SELECTOR, "[placeholder=Input your last name]")
         input2.send_keys("Mask")
-        input3 = browser.find_element(By.CSS_SELECTOR, "[placeholder='Input your email']")
+        input3 = browser.find_element(By.CSS_SELECTOR, "[placeholder=Input your email]")
         input3.send_keys("spacex.com")
 
         # Отправляем заполненную форму
@@ -46,11 +46,11 @@ class test_test(unittest.TestCase):
         browser.get(link)
 
         # Ваш код, который заполняет обязательные поля: First name, last name, email
-        input1 = browser.find_element(By.CSS_SELECTOR, "[placeholder='Input your first name']")
+        input1 = browser.find_element(By.CSS_SELECTOR, "[placeholder=Input your first name]")
         input1.send_keys("Ilon")
-        input2 = browser.find_element(By.CSS_SELECTOR, "[placeholder='Input your last name']")
+        input2 = browser.find_element(By.CSS_SELECTOR, "[placeholder=Input your last name]")
         input2.send_keys("Mask")
-        input3 = browser.find_element(By.CSS_SELECTOR, "[placeholder='Input your email']")
+        input3 = browser.find_element(By.CSS_SELECTOR, "[placeholder=Input your email]")
         input3.send_keys("spacex.com")
 
         # Отправляем заполненную форму
